@@ -1,0 +1,1250 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!-- SEO Meta Tags -->
+		<title>Study MBBS Abroad - Top Medical Universities | UniversityInsight</title>
+		<meta
+			name="description"
+			content="Study MBBS abroad with UniversityInsight. Get admission in top medical universities worldwide. Low fees, NMC approved, expert guidance. Apply now for 2024 intake!"
+		/>
+		<meta
+			name="keywords"
+			content="MBBS abroad, study medicine abroad, medical universities, affordable MBBS, NMC approved universities, MBBS in Russia, MBBS in Germany"
+		/>
+
+		<!-- Tailwind CSS -->
+		<script src="https://cdn.tailwindcss.com"></script>
+
+		<!-- Open Graph / Social Media Meta Tags -->
+		<meta property="og:title" content="Study MBBS Abroad - Top Medical Universities | UniversityInsight" />
+		<meta
+			property="og:description"
+			content="Get quality medical education abroad at affordable costs. Expert guidance, visa assistance, and guaranteed admissions in top medical universities."
+		/>
+		<meta property="og:image" content="https://your-domain.com/images/mbbs-abroad-social.jpg" />
+		<meta property="og:url" content="https://your-domain.com" />
+
+		<!-- Canonical URL -->
+		<link rel="canonical" href="https://your-domain.com" />
+
+		<!-- Robots Meta -->
+		<meta name="robots" content="index, follow" />
+
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+			rel="stylesheet"
+		/>
+		<!-- Add animation on scroll library -->
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<script>
+			tailwind.config = {
+				theme: {
+					extend: {
+						fontFamily: {
+							poppins: ["Poppins", "sans-serif"],
+						},
+					},
+				},
+			};
+		</script>
+
+		<!-- Schema Markup for Educational Organization -->
+		<script type="application/ld+json">
+			{
+				"@context": "https://schema.org",
+				"@type": "EducationalOrganization",
+				"name": "UniversityInsight",
+				"description": "Educational consultancy specializing in MBBS admissions abroad",
+				"address": {
+					"@type": "PostalAddress",
+					"addressCountry": "India"
+				},
+				"offers": {
+					"@type": "Offer",
+					"category": "Medical Education Consultancy"
+				}
+			}
+		</script>
+
+		<!-- FAQ Schema -->
+		<script type="application/ld+json">
+			{
+				"@context": "https://schema.org",
+				"@type": "FAQPage",
+				"mainEntity": [
+					{
+						"@type": "Question",
+						"name": "What are the eligibility criteria for MBBS abroad?",
+						"acceptedAnswer": {
+							"@type": "Answer",
+							"text": "Minimum 50% in PCB (40% for SC/ST), NEET Qualification, Age between 17-25 years"
+						}
+					},
+					{
+						"@type": "Question",
+						"name": "How much does it cost to study MBBS abroad?",
+						"acceptedAnswer": {
+							"@type": "Answer",
+							"text": "Costs vary by country, starting from $4,000 per year in countries like Russia and Kazakhstan"
+						}
+					}
+				]
+			}
+		</script>
+	</head>
+	<body class="font-poppins bg-gray-50">
+		<!-- Header with CTA -->
+		<header role="banner" class="fixed w-full bg-white/90 backdrop-blur-sm shadow-lg z-50">
+			<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+				<div class="flex justify-between items-center">
+					<a
+						href="#"
+						class="text-2xl font-bold bg-gradient-to-r from-indigo-600 to-blue-500 bg-clip-text text-transparent"
+					>
+						MBBS<span class="font-normal">Abroad</span>
+					</a>
+					<div class="flex justify-center gap-4">
+						<button
+							class="md:hidden bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transition-all"
+							onclick="scrollToForm()"
+						>
+							Apply Now
+						</button>
+
+						<!-- Mobile Menu Button -->
+						<button class="md:hidden" id="mobileMenuBtn">
+							<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+								<path
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									stroke-width="2"
+									d="M4 6h16M4 12h16M4 18h16"
+								/>
+							</svg>
+						</button>
+					</div>
+
+					<!-- Desktop Navigation -->
+					<nav class="hidden md:flex space-x-6 items-center">
+						<a href="#" class="text-gray-700 hover:text-blue-600 transition-colors">Countries</a>
+						<a href="#" class="text-gray-700 hover:text-blue-600 transition-colors">Universities</a>
+						<a href="#" class="text-gray-700 hover:text-blue-600 transition-colors">Admission</a>
+						<a href="#" class="text-gray-700 hover:text-blue-600 transition-colors">About Us</a>
+						<button
+							class="bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-6 py-2.5 rounded-full font-semibold hover:shadow-lg transition-all"
+							onclick="scrollToForm()"
+						>
+							Apply Now
+						</button>
+					</nav>
+
+					<!-- Mobile Navigation -->
+					<div class="hidden absolute top-full left-0 w-full bg-white shadow-lg md:hidden" id="mobileMenu">
+						<nav class="flex flex-col p-4 space-y-4">
+							<a href="#" class="text-gray-700 hover:text-blue-600 transition-colors">Countries</a>
+							<a href="#" class="text-gray-700 hover:text-blue-600 transition-colors">Universities</a>
+							<a href="#" class="text-gray-700 hover:text-blue-600 transition-colors">Admission</a>
+							<a href="#" class="text-gray-700 hover:text-blue-600 transition-colors">About Us</a>
+							<button
+								class="bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-6 py-2.5 rounded-full font-semibold w-full"
+								onclick="scrollToForm()"
+							>
+								Apply Now
+							</button>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<!-- Main content with semantic HTML -->
+		<main role="main">
+			<!-- Hero Section -->
+			<section
+				aria-label="Hero"
+				class="pt-24 md:pt-32 pb-16 md:pb-20 bg-gradient-to-br from-indigo-900 via-blue-900 to-blue-800"
+			>
+				<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+					<div class="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
+						<div class="text-white text-center md:text-left" data-aos="fade-right">
+							<h1 class="text-4xl md:text-5xl font-bold mb-6">Study MBBS Abroad</h1>
+							<p class="text-xl mb-8 text-blue-100">
+								Get world-class medical education at affordable costs
+							</p>
+							<div class="flex flex-wrap justify-center md:justify-start gap-4 mb-8">
+								<div class="bg-white/10 px-4 py-2 rounded-lg">
+									<span class="block text-2xl font-bold">50+</span>
+									<span class="text-sm">Universities</span>
+								</div>
+								<div class="bg-white/10 px-4 py-2 rounded-lg">
+									<span class="block text-2xl font-bold">15+</span>
+									<span class="text-sm">Countries</span>
+								</div>
+								<div class="bg-white/10 px-4 py-2 rounded-lg">
+									<span class="block text-2xl font-bold">10k+</span>
+									<span class="text-sm">Students</span>
+								</div>
+							</div>
+						</div>
+						<div class="relative" data-aos="fade-left">
+							<img
+								src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500"
+								alt="Medical Students"
+								class="rounded-lg shadow-2xl"
+							/>
+							<div class="absolute -bottom-6 -left-6 bg-white p-4 rounded-lg shadow-xl">
+								<p class="text-blue-800 font-semibold">Trusted by 10,000+ students</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Image Gallery Section -->
+			<section class="py-16 md:py-20 bg-gray-900">
+				<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+					<h2 class="text-2xl md:text-3xl font-bold text-center mb-8 md:mb-12 text-white">
+						Campus Life Abroad
+					</h2>
+					<div
+						class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4"
+						data-aos="fade-up"
+						data-aos-duration="800"
+					>
+						<!-- Gallery Item 1 -->
+						<div class="relative overflow-hidden rounded-xl bg-gray-800 shadow-lg">
+							<img
+								src="https://images.unsplash.com/photo-1607619056574-7b8d3ee536b2?w=800&q=80"
+								alt="Medical students studying in state-of-the-art laboratory at top medical university abroad"
+								class="w-full h-64 object-cover opacity-90 transition-all duration-300 hover:opacity-100"
+								loading="lazy"
+							/>
+							<div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent">
+								<div class="absolute bottom-0 left-0 right-0 p-4">
+									<h3 class="text-white font-semibold text-lg mb-1">Modern Facilities</h3>
+									<p class="text-gray-200 text-sm">State-of-the-art medical equipment</p>
+								</div>
+							</div>
+						</div>
+
+						<!-- Gallery Item 2 -->
+						<div class="relative overflow-hidden rounded-xl bg-gray-800 shadow-lg">
+							<img
+								src="https://images.unsplash.com/photo-1581056771107-24ca5f033842?w=800&q=80"
+								alt="Medical students studying in state-of-the-art laboratory at top medical university abroad"
+								class="w-full h-64 object-cover opacity-90 transition-all duration-300 hover:opacity-100"
+								loading="lazy"
+							/>
+							<div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent">
+								<div class="absolute bottom-0 left-0 right-0 p-4">
+									<h3 class="text-white font-semibold text-lg mb-1">Research Labs</h3>
+									<p class="text-gray-200 text-sm">Advanced research facilities</p>
+								</div>
+							</div>
+						</div>
+
+						<!-- Gallery Item 3 -->
+						<div class="relative overflow-hidden rounded-xl bg-gray-800 shadow-lg">
+							<img
+								src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800&q=80"
+								alt="Medical students studying in state-of-the-art laboratory at top medical university abroad"
+								class="w-full h-64 object-cover opacity-90 transition-all duration-300 hover:opacity-100"
+								loading="lazy"
+							/>
+							<div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent">
+								<div class="absolute bottom-0 left-0 right-0 p-4">
+									<h3 class="text-white font-semibold text-lg mb-1">Global Community</h3>
+									<p class="text-gray-200 text-sm">International student environment</p>
+								</div>
+							</div>
+						</div>
+
+						<!-- Gallery Item 4 -->
+						<div class="relative overflow-hidden rounded-xl bg-gray-800 shadow-lg">
+							<img
+								src="https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=800&q=80"
+								alt="Medical students studying in state-of-the-art laboratory at top medical university abroad"
+								class="w-full h-64 object-cover opacity-90 transition-all duration-300 hover:opacity-100"
+								loading="lazy"
+							/>
+							<div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent">
+								<div class="absolute bottom-0 left-0 right-0 p-4">
+									<h3 class="text-white font-semibold text-lg mb-1">Digital Library</h3>
+									<p class="text-gray-200 text-sm">Extensive learning resources</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Countries Section -->
+			<section class="py-16 md:py-20">
+				<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+					<h2 class="text-2xl md:text-3xl font-bold text-center mb-8 md:mb-12">Popular MBBS Destinations</h2>
+					<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
+						<!-- Country Cards -->
+						<div class="bg-white rounded-xl shadow-md overflow-hidden" data-aos="fade-up">
+							<img
+								src="https://images.unsplash.com/photo-1467269204594-9661b134dd2b?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+								alt="Germany"
+								class="w-full h-48 object-cover"
+							/>
+							<div class="p-4">
+								<h3 class="font-bold text-xl mb-2">Germany</h3>
+								<p class="text-gray-600 mb-4">Starting from $0/year</p>
+								<ul class="text-sm text-gray-600">
+									<li class="flex items-center gap-2">
+										<svg
+											class="w-4 h-4 text-green-500"
+											fill="none"
+											stroke="currentColor"
+											viewBox="0 0 24 24"
+										>
+											<path
+												stroke-linecap="round"
+												stroke-linejoin="round"
+												stroke-width="2"
+												d="M5 13l4 4L19 7"
+											/>
+										</svg>
+										Free Education
+									</li>
+									<li class="flex items-center gap-2">
+										<svg
+											class="w-4 h-4 text-green-500"
+											fill="none"
+											stroke="currentColor"
+											viewBox="0 0 24 24"
+										>
+											<path
+												stroke-linecap="round"
+												stroke-linejoin="round"
+												stroke-width="2"
+												d="M5 13l4 4L19 7"
+											/>
+										</svg>
+										Global Recognition
+									</li>
+								</ul>
+							</div>
+						</div>
+						<!-- Russia -->
+						<div
+							class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-shadow"
+							data-aos="fade-up"
+						>
+							<img
+								src="https://images.unsplash.com/photo-1514813621023-7a1e3fca8c1b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXxzOWZqR3lGTmFjZ3x8ZW58MHx8fHx8"
+								alt="Russia"
+								class="w-full h-48 object-cover"
+							/>
+							<div class="p-4">
+								<h3 class="font-bold text-xl mb-2">Russia</h3>
+								<p class="text-gray-600 mb-4">Starting from $4000/year</p>
+								<ul class="text-sm text-gray-600 space-y-2">
+									<li class="flex items-center gap-2">
+										<svg
+											class="w-4 h-4 text-green-500"
+											fill="none"
+											stroke="currentColor"
+											viewBox="0 0 24 24"
+										>
+											<path
+												stroke-linecap="round"
+												stroke-linejoin="round"
+												stroke-width="2"
+												d="M5 13l4 4L19 7"
+											/>
+										</svg>
+										MCI Approved
+									</li>
+									<li class="flex items-center gap-2">
+										<svg
+											class="w-4 h-4 text-green-500"
+											fill="none"
+											stroke="currentColor"
+											viewBox="0 0 24 24"
+										>
+											<path
+												stroke-linecap="round"
+												stroke-linejoin="round"
+												stroke-width="2"
+												d="M5 13l4 4L19 7"
+											/>
+										</svg>
+										English Medium
+									</li>
+								</ul>
+							</div>
+						</div>
+
+						<!-- Similar cards for other countries -->
+						<div
+							class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-shadow"
+							data-aos="fade-up"
+						>
+							<img
+								src="https://images.unsplash.com/photo-1513735492246-483525079686"
+								alt="Kazakhstan"
+								class="w-full h-48 object-cover"
+							/>
+							<div class="p-4">
+								<h3 class="font-bold text-xl mb-2">Kazakhstan</h3>
+								<p class="text-gray-600 mb-4">Starting from $3500/year</p>
+								<ul class="text-sm text-gray-600 space-y-2">
+									<li class="flex items-center gap-2">
+										<svg
+											class="w-4 h-4 text-green-500"
+											fill="none"
+											stroke="currentColor"
+											viewBox="0 0 24 24"
+										>
+											<path
+												stroke-linecap="round"
+												stroke-linejoin="round"
+												stroke-width="2"
+												d="M5 13l4 4L19 7"
+											/>
+										</svg>
+										NMC Approved
+									</li>
+									<li class="flex items-center gap-2">
+										<svg
+											class="w-4 h-4 text-green-500"
+											fill="none"
+											stroke="currentColor"
+											viewBox="0 0 24 24"
+										>
+											<path
+												stroke-linecap="round"
+												stroke-linejoin="round"
+												stroke-width="2"
+												d="M5 13l4 4L19 7"
+											/>
+										</svg>
+										English Medium
+									</li>
+								</ul>
+							</div>
+						</div>
+
+						<div
+							class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-shadow"
+							data-aos="fade-up"
+						>
+							<img
+								src="https://images.unsplash.com/photo-1556761175-b413da4baf72"
+								alt="Philippines"
+								class="w-full h-48 object-cover"
+							/>
+							<div class="p-4">
+								<h3 class="font-bold text-xl mb-2">Philippines</h3>
+								<p class="text-gray-600 mb-4">Starting from $4000/year</p>
+								<ul class="text-sm text-gray-600 space-y-2">
+									<li class="flex items-center gap-2">
+										<svg
+											class="w-4 h-4 text-green-500"
+											fill="none"
+											stroke="currentColor"
+											viewBox="0 0 24 24"
+										>
+											<path
+												stroke-linecap="round"
+												stroke-linejoin="round"
+												stroke-width="2"
+												d="M5 13l4 4L19 7"
+											/>
+										</svg>
+										US Pattern Education
+									</li>
+									<li class="flex items-center gap-2">
+										<svg
+											class="w-4 h-4 text-green-500"
+											fill="none"
+											stroke="currentColor"
+											viewBox="0 0 24 24"
+										>
+											<path
+												stroke-linecap="round"
+												stroke-linejoin="round"
+												stroke-width="2"
+												d="M5 13l4 4L19 7"
+											/>
+										</svg>
+										USMLE Coaching
+									</li>
+								</ul>
+							</div>
+						</div>
+
+						<div
+							class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-shadow"
+							data-aos="fade-up"
+						>
+							<img
+								src="https://www.rmcedu.com/images/basket_headers/mbbs_georgia-3.jpg"
+								alt="Georgia"
+								class="w-full h-48 object-cover"
+							/>
+							<div class="p-4">
+								<h3 class="font-bold text-xl mb-2">Georgia</h3>
+								<p class="text-gray-600 mb-4">Starting from $4500/year</p>
+								<ul class="text-sm text-gray-600 space-y-2">
+									<li class="flex items-center gap-2">
+										<svg
+											class="w-4 h-4 text-green-500"
+											fill="none"
+											stroke="currentColor"
+											viewBox="0 0 24 24"
+										>
+											<path
+												stroke-linecap="round"
+												stroke-linejoin="round"
+												stroke-width="2"
+												d="M5 13l4 4L19 7"
+											/>
+										</svg>
+										European Education
+									</li>
+									<li class="flex items-center gap-2">
+										<svg
+											class="w-4 h-4 text-green-500"
+											fill="none"
+											stroke="currentColor"
+											viewBox="0 0 24 24"
+										>
+											<path
+												stroke-linecap="round"
+												stroke-linejoin="round"
+												stroke-width="2"
+												d="M5 13l4 4L19 7"
+											/>
+										</svg>
+										Direct Admission
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- University Highlights -->
+			<section class="py-20 bg-white">
+				<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+					<h2 class="text-3xl font-bold text-center mb-12">University Highlights</h2>
+					<div class="grid md:grid-cols-2 gap-8">
+						<div class="relative rounded-2xl overflow-hidden shadow-lg" data-aos="fade-right">
+							<img
+								src="https://images.unsplash.com/photo-1562774053-701939374585"
+								alt="University Campus"
+								class="w-full h-96 object-cover"
+							/>
+							<div
+								class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/50 to-transparent flex flex-col justify-end p-6"
+							>
+								<h3 class="text-white text-2xl font-bold mb-2">State-of-the-Art Infrastructure</h3>
+								<p class="text-white/90">
+									Modern facilities equipped with the latest medical technology
+								</p>
+							</div>
+						</div>
+						<div class="grid grid-cols-2 gap-4">
+							<div class="relative rounded-xl overflow-hidden shadow-lg" data-aos="fade-up">
+								<img
+									src="https://media.istockphoto.com/id/1314329972/photo/science-laboratory.jpg?b=1&s=170667a&w=0&k=20&c=xVe15QvGh7Wnun3u4qHRFbx0MwimWb2BTAo7oIRzh9Q="
+									alt="Research Lab"
+									class="w-full h-44 object-cover"
+								/>
+								<div
+									class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-4"
+								>
+									<p class="text-white font-semibold">Research Facilities</p>
+								</div>
+							</div>
+							<div class="relative rounded-xl overflow-hidden shadow-lg" data-aos="fade-up">
+								<img
+									src="https://images.unsplash.com/photo-1579684385127-1ef15d508118"
+									alt="Hands-on Training"
+									class="w-full h-44 object-cover"
+								/>
+								<div
+									class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-4"
+								>
+									<p class="text-white font-semibold">Practical Training</p>
+								</div>
+							</div>
+							<div class="relative rounded-xl overflow-hidden shadow-lg" data-aos="fade-up">
+								<img
+									src="https://images.unsplash.com/photo-1515187029135-18ee286d815b"
+									alt="Library"
+									class="w-full h-44 object-cover"
+								/>
+								<div
+									class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-4"
+								>
+									<p class="text-white font-semibold">Digital Library</p>
+								</div>
+							</div>
+							<div class="relative rounded-xl overflow-hidden shadow-lg" data-aos="fade-up">
+								<img
+									src="https://images.unsplash.com/photo-1523240795612-9a054b0db644"
+									alt="Sports Facility"
+									class="w-full h-44 object-cover"
+								/>
+								<div
+									class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-4"
+								>
+									<p class="text-white font-semibold">Sports Facilities</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Lead Generation Form -->
+			<section id="applicationForm" class="py-20 bg-gray-100">
+				<div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+					<div class="bg-white rounded-2xl shadow-xl p-8" data-aos="fade-up">
+						<h2 class="text-3xl font-bold text-center mb-8">Get Free Counseling</h2>
+						<form class="space-y-6">
+							<div class="grid md:grid-cols-2 gap-6">
+								<input
+									type="text"
+									placeholder="Full Name"
+									class="w-full px-4 py-3 rounded-lg border focus:ring-2 focus:ring-blue-500 outline-none"
+								/>
+								<input
+									type="tel"
+									placeholder="Phone Number"
+									class="w-full px-4 py-3 rounded-lg border focus:ring-2 focus:ring-blue-500 outline-none"
+								/>
+								<input
+									type="email"
+									placeholder="Email Address"
+									class="w-full px-4 py-3 rounded-lg border focus:ring-2 focus:ring-blue-500 outline-none"
+								/>
+								<select
+									class="w-full px-4 py-3 rounded-lg border focus:ring-2 focus:ring-blue-500 outline-none"
+								>
+									<option value="">Preferred Country</option>
+									<option value="germany">Germany</option>
+									<option value="ukraine">Ukraine</option>
+									<option value="russia">Russia</option>
+									<option value="Kazakhstan">Kazakhstan</option>
+									<option value="philipines">philipines</option>
+									<option value="Georgia">Georgia</option>
+									<option value="Other">Other</option>
+								</select>
+							</div>
+							<button
+								type="submit"
+								class="w-full bg-gradient-to-r from-blue-600 to-blue-700 text-white py-4 rounded-lg font-semibold hover:shadow-lg transition-all"
+							>
+								Get Free Counseling
+							</button>
+						</form>
+					</div>
+				</div>
+			</section>
+
+			<!-- Features Section -->
+			<section class="py-20">
+				<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+					<h2 class="text-3xl font-bold text-center mb-12">Why Choose Us?</h2>
+					<div class="grid md:grid-cols-3 gap-8">
+						<!-- Admission Guarantee -->
+						<div
+							class="text-center p-6 bg-white rounded-xl shadow-md hover:shadow-xl transition-all"
+							data-aos="fade-up"
+						>
+							<div
+								class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4"
+							>
+								<svg
+									class="w-8 h-8 text-blue-600"
+									fill="none"
+									stroke="currentColor"
+									viewBox="0 0 24 24"
+								>
+									<path
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										stroke-width="2"
+										d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"
+									/>
+								</svg>
+							</div>
+							<h3 class="text-xl font-semibold mb-2">100% Admission Guarantee</h3>
+							<p class="text-gray-600">We ensure your admission to top medical universities worldwide</p>
+						</div>
+
+						<!-- Expert Counseling -->
+						<div
+							class="text-center p-6 bg-white rounded-xl shadow-md hover:shadow-xl transition-all"
+							data-aos="fade-up"
+							data-aos-delay="100"
+						>
+							<div
+								class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4"
+							>
+								<svg
+									class="w-8 h-8 text-green-600"
+									fill="none"
+									stroke="currentColor"
+									viewBox="0 0 24 24"
+								>
+									<path
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										stroke-width="2"
+										d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"
+									/>
+								</svg>
+							</div>
+							<h3 class="text-xl font-semibold mb-2">Expert Counseling</h3>
+							<p class="text-gray-600">Personalized guidance from experienced education consultants</p>
+						</div>
+
+						<!-- Visa Assistance -->
+						<div
+							class="text-center p-6 bg-white rounded-xl shadow-md hover:shadow-xl transition-all"
+							data-aos="fade-up"
+							data-aos-delay="200"
+						>
+							<div
+								class="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4"
+							>
+								<svg
+									class="w-8 h-8 text-purple-600"
+									fill="none"
+									stroke="currentColor"
+									viewBox="0 0 24 24"
+								>
+									<path
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										stroke-width="2"
+										d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3h2v4l.586-.586z"
+									/>
+								</svg>
+							</div>
+							<h3 class="text-xl font-semibold mb-2">Visa Assistance</h3>
+							<p class="text-gray-600">Complete support for visa application and documentation</p>
+						</div>
+
+						<!-- Airport Pickup -->
+						<div
+							class="text-center p-6 bg-white rounded-xl shadow-md hover:shadow-xl transition-all"
+							data-aos="fade-up"
+							data-aos-delay="300"
+						>
+							<div
+								class="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4"
+							>
+								<svg class="w-8 h-8 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+									<path
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										stroke-width="2"
+										d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4"
+									/>
+								</svg>
+							</div>
+							<h3 class="text-xl font-semibold mb-2">Airport Pickup</h3>
+							<p class="text-gray-600">Free airport pickup and accommodation assistance</p>
+						</div>
+
+						<!-- Language Support -->
+						<div
+							class="text-center p-6 bg-white rounded-xl shadow-md hover:shadow-xl transition-all"
+							data-aos="fade-up"
+							data-aos-delay="400"
+						>
+							<div
+								class="w-16 h-16 bg-yellow-100 rounded-full flex items-center justify-center mx-auto mb-4"
+							>
+								<svg
+									class="w-8 h-8 text-yellow-600"
+									fill="none"
+									stroke="currentColor"
+									viewBox="0 0 24 24"
+								>
+									<path
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										stroke-width="2"
+										d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129"
+									/>
+								</svg>
+							</div>
+							<h3 class="text-xl font-semibold mb-2">Language Support</h3>
+							<p class="text-gray-600">Pre-departure language training and local language assistance</p>
+						</div>
+
+						<!-- 24/7 Support -->
+						<div
+							class="text-center p-6 bg-white rounded-xl shadow-md hover:shadow-xl transition-all"
+							data-aos="fade-up"
+							data-aos-delay="500"
+						>
+							<div
+								class="w-16 h-16 bg-indigo-100 rounded-full flex items-center justify-center mx-auto mb-4"
+							>
+								<svg
+									class="w-8 h-8 text-indigo-600"
+									fill="none"
+									stroke="currentColor"
+									viewBox="0 0 24 24"
+								>
+									<path
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										stroke-width="2"
+										d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z"
+									/>
+								</svg>
+							</div>
+							<h3 class="text-xl font-semibold mb-2">24/7 Support</h3>
+							<p class="text-gray-600">Round-the-clock assistance throughout your journey</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Why Study MBBS Abroad Section -->
+			<section class="py-20 bg-gray-50">
+				<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+					<h2 class="text-3xl font-bold text-center mb-12">Why Study MBBS Abroad?</h2>
+					<div class="grid md:grid-cols-3 gap-8">
+						<!-- Affordable Education -->
+						<div
+							class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-all"
+							data-aos="fade-up"
+						>
+							<div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mb-4">
+								<svg
+									class="w-6 h-6 text-blue-600"
+									fill="none"
+									stroke="currentColor"
+									viewBox="0 0 24 24"
+								>
+									<path
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										stroke-width="2"
+										d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+									/>
+								</svg>
+							</div>
+							<h3 class="text-xl font-semibold mb-2">Affordable Education</h3>
+							<p class="text-gray-600">
+								Lower tuition fees compared to private medical colleges in India, with options starting
+								from $4000/year
+							</p>
+						</div>
+
+						<!-- Global Recognition -->
+						<div
+							class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-all"
+							data-aos="fade-up"
+							data-aos-delay="100"
+						>
+							<div class="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mb-4">
+								<svg
+									class="w-6 h-6 text-green-600"
+									fill="none"
+									stroke="currentColor"
+									viewBox="0 0 24 24"
+								>
+									<path
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										stroke-width="2"
+										d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+									/>
+								</svg>
+							</div>
+							<h3 class="text-xl font-semibold mb-2">Global Recognition</h3>
+							<p class="text-gray-600">
+								Degrees recognized worldwide with opportunities to practice internationally
+							</p>
+						</div>
+
+						<!-- Modern Infrastructure -->
+						<div
+							class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-all"
+							data-aos="fade-up"
+							data-aos-delay="200"
+						>
+							<div class="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center mb-4">
+								<svg
+									class="w-6 h-6 text-purple-600"
+									fill="none"
+									stroke="currentColor"
+									viewBox="0 0 24 24"
+								>
+									<path
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										stroke-width="2"
+										d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"
+									/>
+								</svg>
+							</div>
+							<h3 class="text-xl font-semibold mb-2">Modern Infrastructure</h3>
+							<p class="text-gray-600">
+								State-of-the-art facilities with advanced medical equipment and research labs
+							</p>
+						</div>
+
+						<!-- Additional benefits -->
+						<!-- <div
+							class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-all"
+							data-aos="fade-up"
+							data-aos-delay="300"
+						>
+							Add more benefit cards here
+						</div> -->
+					</div>
+				</div>
+			</section>
+
+			<!-- Admission Process Section -->
+			<section class="py-20">
+				<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+					<h2 class="text-3xl font-bold text-center mb-12">Admission Process & Eligibility</h2>
+					<div class="grid md:grid-cols-2 gap-12">
+						<!-- Eligibility -->
+						<div class="space-y-6" data-aos="fade-right">
+							<h3 class="text-2xl font-semibold mb-4">Eligibility Criteria</h3>
+							<ul class="space-y-4">
+								<li class="flex items-start gap-3">
+									<svg
+										class="w-6 h-6 text-green-500 mt-1 flex-shrink-0"
+										fill="none"
+										stroke="currentColor"
+										viewBox="0 0 24 24"
+									>
+										<path
+											stroke-linecap="round"
+											stroke-linejoin="round"
+											stroke-width="2"
+											d="M5 13l4 4L19 7"
+										/>
+									</svg>
+									<span>Minimum 50% in PCB (40% for SC/ST)</span>
+								</li>
+								<li class="flex items-start gap-3">
+									<svg
+										class="w-6 h-6 text-green-500 mt-1 flex-shrink-0"
+										fill="none"
+										stroke="currentColor"
+										viewBox="0 0 24 24"
+									>
+										<path
+											stroke-linecap="round"
+											stroke-linejoin="round"
+											stroke-width="2"
+											d="M5 13l4 4L19 7"
+										/>
+									</svg>
+									<span>NEET Qualification</span>
+								</li>
+								<li class="flex items-start gap-3">
+									<svg
+										class="w-6 h-6 text-green-500 mt-1 flex-shrink-0"
+										fill="none"
+										stroke="currentColor"
+										viewBox="0 0 24 24"
+									>
+										<path
+											stroke-linecap="round"
+											stroke-linejoin="round"
+											stroke-width="2"
+											d="M5 13l4 4L19 7"
+										/>
+									</svg>
+									<span>Age: 17-25 years</span>
+								</li>
+							</ul>
+						</div>
+
+						<!-- Process Steps -->
+						<div class="space-y-6" data-aos="fade-left">
+							<h3 class="text-2xl font-semibold mb-4">Application Process</h3>
+							<div class="space-y-6">
+								<!-- Step 1 -->
+								<div class="flex gap-4">
+									<div
+										class="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center flex-shrink-0"
+									>
+										<span class="text-blue-600 font-semibold">1</span>
+									</div>
+									<div>
+										<h4 class="font-semibold mb-1">Document Submission</h4>
+										<p class="text-gray-600">Submit your academic documents and NEET scorecard</p>
+									</div>
+								</div>
+
+								<!-- Step 2 -->
+								<div class="flex gap-4">
+									<div
+										class="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center flex-shrink-0"
+									>
+										<span class="text-blue-600 font-semibold">2</span>
+									</div>
+									<div>
+										<h4 class="font-semibold mb-1">University Selection</h4>
+										<p class="text-gray-600">
+											Choose from our partner universities based on your preferences
+										</p>
+									</div>
+								</div>
+
+								<!-- Step 3 -->
+								<div class="flex gap-4">
+									<div
+										class="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center flex-shrink-0"
+									>
+										<span class="text-blue-600 font-semibold">3</span>
+									</div>
+									<div>
+										<h4 class="font-semibold mb-1">Admission Letter</h4>
+										<p class="text-gray-600">
+											Receive official admission letter from the university
+										</p>
+									</div>
+								</div>
+
+								<!-- Step 4 -->
+								<div class="flex gap-4">
+									<div
+										class="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center flex-shrink-0"
+									>
+										<span class="text-blue-600 font-semibold">4</span>
+									</div>
+									<div>
+										<h4 class="font-semibold mb-1">Visa Processing</h4>
+										<p class="text-gray-600">
+											Complete visa application with our expert assistance
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Cost Comparison Section -->
+			<section class="py-20 bg-gray-50">
+				<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+					<h2 class="text-3xl font-bold text-center mb-12">Cost Comparison</h2>
+					<div class="overflow-x-auto">
+						<table class="w-full bg-white rounded-xl shadow-md">
+							<thead class="bg-blue-50">
+								<tr>
+									<th class="px-6 py-4 text-left">Country</th>
+									<th class="px-6 py-4 text-left">Duration</th>
+									<th class="px-6 py-4 text-left">Annual Fee</th>
+									<th class="px-6 py-4 text-left">Living Cost</th>
+								</tr>
+							</thead>
+							<tbody class="divide-y divide-gray-100">
+								<tr class="hover:bg-gray-50">
+									<td class="px-6 py-4">Russia</td>
+									<td class="px-6 py-4">6 Years</td>
+									<td class="px-6 py-4">$4,000 - $8,000</td>
+									<td class="px-6 py-4">$200 - $400/month</td>
+								</tr>
+								<tr class="hover:bg-gray-50">
+									<td class="px-6 py-4">Russia</td>
+									<td class="px-6 py-4">6 Years</td>
+									<td class="px-6 py-4">$4,000 - $8,000</td>
+									<td class="px-6 py-4">$200 - $400/month</td>
+								</tr>
+								<tr class="hover:bg-gray-50">
+									<td class="px-6 py-4">Russia</td>
+									<td class="px-6 py-4">6 Years</td>
+									<td class="px-6 py-4">$4,000 - $8,000</td>
+									<td class="px-6 py-4">$200 - $400/month</td>
+								</tr>
+								<tr class="hover:bg-gray-50">
+									<td class="px-6 py-4">Russia</td>
+									<td class="px-6 py-4">6 Years</td>
+									<td class="px-6 py-4">$4,000 - $8,000</td>
+									<td class="px-6 py-4">$200 - $400/month</td>
+								</tr>
+								<!-- Add more rows -->
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</section>
+
+			<!-- Student Testimonials with Images -->
+			<section class="py-20 bg-gray-50">
+				<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+					<h2 class="text-3xl font-bold text-center mb-12">Student Success Stories</h2>
+					<div class="grid md:grid-cols-3 gap-8">
+						<div class="bg-white rounded-xl shadow-lg overflow-hidden" data-aos="fade-up">
+							<div class="p-6">
+								<div class="flex items-center mb-4">
+									<img
+										src="https://randomuser.me/api/portraits/women/32.jpg"
+										alt="Student Avatar"
+										class="w-12 h-12 rounded-full mr-4"
+									/>
+									<div>
+										<h3 class="font-semibold">Priya Sharma</h3>
+										<p class="text-sm text-gray-600">MBBS Student, Russia</p>
+									</div>
+								</div>
+								<p class="text-gray-600">
+									"The experience of studying medicine abroad has been life-changing. The exposure to
+									different healthcare systems is invaluable."
+								</p>
+							</div>
+						</div>
+						<!-- Add 2 more similar testimonial cards -->
+						<div
+							class="bg-white rounded-xl shadow-lg overflow-hidden"
+							data-aos="fade-up"
+							data-aos-delay="100"
+						>
+							<div class="p-6">
+								<div class="flex items-center mb-4">
+									<img
+										src="https://randomuser.me/api/portraits/men/32.jpg"
+										alt="Student Avatar"
+										class="w-12 h-12 rounded-full mr-4"
+									/>
+									<div>
+										<h3 class="font-semibold">Rahul Verma</h3>
+										<p class="text-sm text-gray-600">MBBS Student, Germany</p>
+									</div>
+								</div>
+								<p class="text-gray-600">
+									"The quality of education and practical exposure here is exceptional. The
+									international environment has broadened my perspective."
+								</p>
+							</div>
+						</div>
+
+						<!-- Student 3 -->
+						<div
+							class="bg-white rounded-xl shadow-lg overflow-hidden"
+							data-aos="fade-up"
+							data-aos-delay="200"
+						>
+							<div class="p-6">
+								<div class="flex items-center mb-4">
+									<img
+										src="https://randomuser.me/api/portraits/women/45.jpg"
+										alt="Student Avatar"
+										class="w-12 h-12 rounded-full mr-4"
+									/>
+									<div>
+										<h3 class="font-semibold">Rashmi Patel</h3>
+										<p class="text-sm text-gray-600">MBBS Graduate, Philippines</p>
+									</div>
+								</div>
+								<p class="text-gray-600">
+									"From advanced facilities to cultural exposure, studying abroad has given me a
+									complete package for my medical career."
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<!-- Footer with semantic HTML -->
+		<footer role="contentinfo" class="bg-gray-900 text-white py-12">
+			<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+				<div class="grid md:grid-cols-4 gap-8">
+					<div>
+						<h3 class="text-xl font-bold mb-4">About Us</h3>
+						<p class="text-gray-400">
+							Leading education consultants for MBBS abroad admissions with 10+ years of experience.
+						</p>
+					</div>
+					<div>
+						<h3 class="text-xl font-bold mb-4">Quick Links</h3>
+						<nav aria-label="Footer Navigation">
+							<ul class="space-y-2">
+								<li><a href="#" class="text-gray-400 hover:text-white">Countries</a></li>
+								<li><a href="#" class="text-gray-400 hover:text-white">Universities</a></li>
+								<li><a href="#" class="text-gray-400 hover:text-white">Admission Process</a></li>
+								<li><a href="#" class="text-gray-400 hover:text-white">Contact Us</a></li>
+							</ul>
+						</nav>
+					</div>
+					<div>
+						<h3 class="text-xl font-bold mb-4">Contact Info</h3>
+						<address class="text-gray-400 not-italic">
+							<p>Email: info@universityinsight.com</p>
+							<p>Phone: +91 1234567890</p>
+						</address>
+					</div>
+					<div>
+						<h3 class="text-xl font-bold mb-4">Follow Us</h3>
+						<div class="flex space-x-4">
+							<!-- Add social media links -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<script>
+			const mobileMenuBtn = document.getElementById("mobileMenuBtn");
+			const mobileMenu = document.getElementById("mobileMenu");
+
+			mobileMenuBtn.addEventListener("click", () => {
+				mobileMenu.classList.toggle("hidden");
+			});
+
+			// Close mobile menu when clicking outside
+			document.addEventListener("click", (e) => {
+				if (!mobileMenuBtn.contains(e.target) && !mobileMenu.contains(e.target)) {
+					mobileMenu.classList.add("hidden");
+				}
+			});
+
+			// Handle window resize
+			window.addEventListener("resize", () => {
+				if (window.innerWidth >= 768) {
+					// md breakpoint
+					mobileMenu.classList.add("hidden");
+				}
+			});
+
+			// Initialize AOS
+			AOS.init({
+				duration: 1000,
+				once: true,
+				disable: "mobile", // Disable animations on mobile for better performance
+			});
+
+			// Smooth scroll function
+			function scrollToForm() {
+				const form = document.getElementById("applicationForm");
+				form.scrollIntoView({ behavior: "smooth", block: "start" });
+
+				// Close mobile menu if open
+				if (mobileMenu && !mobileMenu.classList.contains("hidden")) {
+					mobileMenu.classList.add("hidden");
+				}
+			}
+		</script>
+	</body>
+</html>
