@@ -5,8 +5,6 @@ This project is a responsive landing page for "Study MBBS Abroad" created as par
 ## Project Structure
 
 -   \`index.html\`: The main HTML file containing the structure of the landing page.
--   \`styles.css\`: The CSS file for styling the landing page.
--   \`script.js\`: The JavaScript file for form validation and smooth scrolling.
 
 ## Setup Instructions
 
